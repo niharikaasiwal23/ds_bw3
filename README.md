@@ -51,9 +51,9 @@ Performed **independent samples t-tests** to validate if differences between gro
 
 | Comparison | Variable | Result |
 |------------|----------|--------|
-| Married vs Single | Total Spending | ✔️/❌ (based on p-value) |
-| Responded vs Not Responded | Total Spending | ✔️/❌ |
-| With vs Without Children | Income | ✔️/❌ |
+| Married vs Single | Total Spending | Fail to reject (based on p-value) |
+| Responded vs Not Responded | Total Spending | Reject |
+| With vs Without Children | Income | Reject |
 
 Each test included logic to **reject or fail to reject** the null hypothesis at α = 0.05.
 
